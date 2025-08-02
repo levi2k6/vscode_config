@@ -1,0 +1,22 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+w h",
+    "command": "workbench.view.explorer",
+    "when": "vim.active && editorTextFocus"
+  },
+  {
+    "key": "ctrl+w l",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "vim.active && !editorTextFocus"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "workbench.action.quickOpen"
+  },
+  {
+    "key": "`",
+    "command": "workbench.action.toggleSidebarVisibility"
+  }
+]
+
