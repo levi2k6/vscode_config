@@ -20,7 +20,7 @@
         "commands":["editor.action.revealDefinition"]
     },
     {
-        "before": ["<leader>", "s", "e"],
+        "before": ["tab"],
         "commands": ["workbench.action.navigateLast"]
     }, 
     {
@@ -34,6 +34,16 @@
     {
       "before": ["<leader>", "x"],
       "commands": ["workbench.action.closeActiveEditor"]
+    },
+    {
+      "before": ["`"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    {
+      "before": ["<leader>", "r"],
+      "commands": ["editor.action.startFindReplaceAction"]
     }
+
+  
   ]
 }
