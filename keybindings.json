@@ -1,9 +1,8 @@
 // Place your key bindings in this file to override the defaults
 [
   {
-    "key": "ctrl+w h",
-    "command": "workbench.view.explorer",
-    "when": "vim.active && editorTextFocus"
+    "key": "ctrl+tab",       
+    "command": "workbench.action.focusActivityBar",
   },
   {
     "key": "ctrl+w l",
@@ -11,8 +10,39 @@
     "when": "vim.active && !editorTextFocus"
   },
   {
+    "key": "ctrl+b",
+    "command": "workbench.action.toggleSidebarVisibility",
+  },
+  {
+    "key": "ctrl+f",
+    "command": "explorer.newFolder",
+    "when": "explorerViewletVisible && filesExplorerFocus"
+  },
+  {
+  "key": "ctrl+n",
+  "command": "explorer.newFile",
+  "when": "explorerViewletVisible && filesExplorerFocus"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "deleteFile",
+    "when": "explorerViewletVisible && filesExplorerFocus"
+  },
+  
+  {
     "key": "ctrl+p",
     "command": "workbench.action.quickOpen"
   },
+  {
+      "key": "k",
+      "command": "workbench.action.activityBarLocation.bottom",
+      "when": "activityBarFocus"
+  },
+  {
+      "key": "j",
+      "command": "cursorUp",
+      "when": "activityBarFocus"
+  },
+
 ]
 

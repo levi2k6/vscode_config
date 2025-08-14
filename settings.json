@@ -8,42 +8,42 @@
       "commands": ["workbench.action.quickOpen"]
     },
     {
-        "before": ["<leader>", "s", "f"],
-        "commands": ["workbench.action.openPreviousEditorFromHistory"]
+      "before": ["<leader>", "s", "f"],
+      "commands": ["workbench.action.openPreviousEditorFromHistory"]
     },
     {
-        "before": ["<leader>", "s", "w"],
-        "commands": ["search.action.openEditor"]
+      "before": ["<leader>", "s", "w"],
+      "commands": ["search.action.openEditor"]
     },
     {
-        "before": ["<leader>", "e"],
-        "commands":["editor.action.revealDefinition"]
+      "before": ["<leader>", "e"],
+      "commands": ["editor.action.revealDefinition"]
     },
     {
-        "before": ["tab"],
-        "commands": ["workbench.action.navigateLast"]
+      "before": ["tab"],
+      "commands": ["workbench.action.navigateLast"]
     }, 
     {
-        "before": ["<left>"],
-        "commands": ["workbench.action.previousEditor"]
+      "before": ["<left>"],
+      "commands": ["workbench.action.previousEditor"]
     },  
     {
-        "before": ["<right>"],
-        "commands": ["workbench.action.nextEditor"]
+      "before": ["<right>"],
+      "commands": ["workbench.action.nextEditor"]
     },
     {
       "before": ["<leader>", "x"],
       "commands": ["workbench.action.closeActiveEditor"]
-    },
+    } ,
     {
-      "before": ["`"],
+      "before": ["ctrl+b"],
       "commands": ["workbench.action.toggleSidebarVisibility"]
     },
     {
       "before": ["<leader>", "r"],
       "commands": ["editor.action.startFindReplaceAction"]
     }
+  ],
 
-  
-  ]
+  "workbench.colorTheme": "Vim Deep Dark"
 }
